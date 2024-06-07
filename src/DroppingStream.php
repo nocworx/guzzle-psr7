@@ -10,6 +10,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @final
  */
+#[\AllowDynamicProperties]
 class DroppingStream implements StreamInterface
 {
     use StreamDecoratorTrait;

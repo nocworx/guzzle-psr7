@@ -2,6 +2,7 @@
 
 namespace GuzzleHttp\Psr7;
 
+#[\AllowDynamicProperties]
 final class Header
 {
     /**

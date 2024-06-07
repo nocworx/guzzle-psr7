@@ -11,6 +11,7 @@ use Psr\Http\Message\UriInterface;
  * @author Tobias Schultze
  * @author Matthew Weier O'Phinney
  */
+#[\AllowDynamicProperties]
 class Uri implements UriInterface
 {
     /**

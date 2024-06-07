@@ -16,6 +16,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @final
  */
+#[\AllowDynamicProperties]
 class PumpStream implements StreamInterface
 {
     /** @var callable */

@@ -9,6 +9,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @var $stream
  */
+#[\AllowDynamicProperties]
 class Stream implements StreamInterface
 {
     /**

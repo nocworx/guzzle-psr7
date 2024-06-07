@@ -11,6 +11,7 @@ use Psr\Http\Message\UriInterface;
  *
  * @link https://tools.ietf.org/html/rfc3986#section-5
  */
+#[\AllowDynamicProperties]
 final class UriResolver
 {
     /**

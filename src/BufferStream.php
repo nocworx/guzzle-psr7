@@ -14,6 +14,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @final
  */
+#[\AllowDynamicProperties]
 class BufferStream implements StreamInterface
 {
     private $hwm;

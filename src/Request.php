@@ -10,6 +10,7 @@ use Psr\Http\Message\UriInterface;
 /**
  * PSR-7 request implementation.
  */
+#[\AllowDynamicProperties]
 class Request implements RequestInterface
 {
     use MessageTrait;

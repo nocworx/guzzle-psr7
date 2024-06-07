@@ -8,6 +8,7 @@ use Psr\Http\Message\StreamInterface;
 /**
  * PSR-7 response implementation.
  */
+#[\AllowDynamicProperties]
 class Response implements ResponseInterface
 {
     use MessageTrait;

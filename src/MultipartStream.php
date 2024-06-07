@@ -10,6 +10,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @final
  */
+#[\AllowDynamicProperties]
 class MultipartStream implements StreamInterface
 {
     use StreamDecoratorTrait;

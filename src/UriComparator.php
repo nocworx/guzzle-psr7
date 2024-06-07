@@ -9,6 +9,7 @@ use Psr\Http\Message\UriInterface;
  *
  * @author Graham Campbell
  */
+#[\AllowDynamicProperties]
 final class UriComparator
 {
     /**

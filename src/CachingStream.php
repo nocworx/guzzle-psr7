@@ -10,6 +10,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @final
  */
+#[\AllowDynamicProperties]
 class CachingStream implements StreamInterface
 {
     use StreamDecoratorTrait;

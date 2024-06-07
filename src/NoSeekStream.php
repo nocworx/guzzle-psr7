@@ -9,6 +9,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @final
  */
+#[\AllowDynamicProperties]
 class NoSeekStream implements StreamInterface
 {
     use StreamDecoratorTrait;

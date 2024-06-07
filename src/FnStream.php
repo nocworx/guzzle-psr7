@@ -12,6 +12,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @final
  */
+#[\AllowDynamicProperties]
 class FnStream implements StreamInterface
 {
     /** @var array */

@@ -11,6 +11,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * @final
  */
+#[\AllowDynamicProperties]
 class AppendStream implements StreamInterface
 {
     /** @var StreamInterface[] Streams being decorated */
